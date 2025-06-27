@@ -17,11 +17,7 @@ Here are some ideas to get you started:
 -->
 
 # Hi there, I'm Yoelbis! 👋
-<!--
-![gif](https://github.com/user-attachments/assets/4b1d7f92-4707-43f2-8a86-cbb90ab359c5)
-<img src="https://github.com/user-attachments/assets/4b1d7f92-4707-43f2-8a86-cbb90ab359c5" width="500">
-![gif-web-developer](https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962)
--->
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962" width="60%">
 </div>
@@ -70,6 +66,6 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 <!-- - **[Personal Website / Blog]**(your_website_or_blog_link)-->
 - [My LinkedIn.](https://www.linkedin.com/in/yoelbis-galvez/)
 - [My email.](mailto:yoelbiswork@gmail.com)
-<!-- - **[Twitter]**(your_twitter_profile_link)-->
+
 
 
