@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 I'm a passionate recently college-graduated **Web Developer**, with excellent coding skills. My unwavering commitment to quality and delivering measurable results is a core differentiator in my web development projects.
 
 - 🌱 Currently learning: **React**.
-- 🔭 Working on: **My colleage Kristie's portfolio and online store promotion (https://kristie-mei-ozima.com)**
+- 🔭 Working on: **My colleage Kristie's portfolio and online store promotion (https://kristie-mei-ozima.com).**
 - 🌍 Languages: **English and Spanish!**
 
 
@@ -69,8 +69,8 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 ## Get in Touch 📬
 
 <!-- - **[Personal Website / Blog]**(your_website_or_blog_link)-->
-- [My LinkedIn](https://www.linkedin.com/in/yoelbis-galvez/)
-- [My email](mailto:yoelbiswork@gmail.com)
+- [My LinkedIn.](https://www.linkedin.com/in/yoelbis-galvez/)
+- [My email.](mailto:yoelbiswork@gmail.com)
 <!-- - **[Twitter]**(your_twitter_profile_link)-->
 
 
