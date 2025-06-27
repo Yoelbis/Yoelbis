@@ -13,18 +13,27 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
-# Hi there, I'm Yoelbis! 👋
 
 ![Banner Image](your_banner_image_url_here)
+-->
+
+# Hi there, I'm Yoelbis! 👋
+<!--
+![gif](https://github.com/user-attachments/assets/4b1d7f92-4707-43f2-8a86-cbb90ab359c5)
+<img src="https://github.com/user-attachments/assets/4b1d7f92-4707-43f2-8a86-cbb90ab359c5" width="500">
+![gif-web-developer](https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962)
+-->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962" width="60%">
+</div>
 
 ## About Me 🚀
 
-I'm a passionate recently college graduated **Web Developer**, with excelent coding skills. My unwavering commitment to quality and delivering measurable results is a core differentiator in my web development projects.
+I'm a passionate recently college-graduated **Web Developer**, with excellent coding skills. My unwavering commitment to quality and delivering measurable results is a core differentiator in my web development projects.
 
 - 🌱 Currently learning: **React**.
 - 🔭 Working on: **My colleage Kristie's portfolio and online store promotion (https://kristie-mei-ozima.com)**
-- 🌍 Languages: **English and Spanish equally well!**
+- 🌍 Languages: **English and Spanish!**
 
 
 ## My Skills 🧠
@@ -40,6 +49,7 @@ I'm a passionate recently college graduated **Web Developer**, with excelent cod
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Gimp](https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
 
+<!--
 *Replace the above skill badges with your own skills and expertise. To create more badges, use [checkout this repo](https://github.com/alexandresanlim/Badges4-README.md-Profile).*
 
 ## Featured Projects 💻
@@ -55,11 +65,12 @@ I'm a passionate recently college graduated **Web Developer**, with excelent cod
 ![Project 2 Screenshot](project_2_screenshot_url)
 
 **[Project 2 Title]** is a **[brief project description]** built with **[technologies used]**. This project showcases my skills in **[skills demonstrated by the project]**. You can check out the repository [here](project_2_repository_link).
-
+-->
 ## Get in Touch 📬
 
-- **[Personal Website / Blog]**(your_website_or_blog_link)
-- **[LinkedIn]**(your_linkedin_profile_link)
-- **[Twitter]**(your_twitter_profile_link)
+<!-- - **[Personal Website / Blog]**(your_website_or_blog_link)-->
+- [My LinkedIn](https://www.linkedin.com/in/yoelbis-galvez/)
+- [My email](mailto:yoelbiswork@gmail.com)
+<!-- - **[Twitter]**(your_twitter_profile_link)-->
 
 
