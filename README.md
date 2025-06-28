@@ -68,4 +68,8 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 - [My email.](mailto:yoelbiswork@gmail.com)
 
 
+<div style="width: 100%;">
 
+  <img src="animation.svg" style="width: 100%;" alt="Contenido personalizado">
+
+</div>
