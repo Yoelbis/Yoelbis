@@ -12,11 +12,11 @@
             opacity: 1; /* Completamente visible (fade-in) */
             visibility: visible; /* Hace visible el elemento */
           }
-          18% { /* Nuevo punto: 10% (fin fade-in) + (1s / 12s * 00% = 10% + 8.33% = 18.33% */
-            opacity: 1; /* Permanece visible durante 1 segundo */
+          60% { /* Anteriormente 70%, ahora 60% para 2s de visibilidad */
+            opacity: 1; /* Permanece visible durante 2 segundos */
             visibility: visible;
           }
-          28% { /* Nuevo punto: 18% + (1s / 12s * 00% = 18% + 8.33% = 26.33% para el inicio del fade-out */
+          70% { /* Anteriormente 80%, ahora 70% para iniciar fade-out antes */
             opacity: 0; /* Se desvanece (fade-out) */
             visibility: hidden;
           }
