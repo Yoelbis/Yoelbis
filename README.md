@@ -78,15 +78,28 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 </div>
 
 
-<div class="image-container">
-        <img src="1.jpeg" alt="Image 1" />
-      </div>
-      <div class="image-container">
+  <div style="width: 28%; max-width: 200px; height: auto; box-sizing: border-box; text-align: center; position: relative; overflow: hidden;">
+        <img src="1.jpeg" style="width: 100%; height: 100%; object-fit: cover; animation: fade-visibility 12s infinite;" alt="Image 1" />
+  </div>
+      
+  <div >
         <img src="2.jpg" alt="Image 2" />
-      </div>
-      <div class="image-container">
+  </div>
+      
+  <div class="image-container">
         <img src="3.png" alt="Image 3" />
-</div>
+  </div>
+
+
+
+        /* Estilos para las imágenes */
+        .image-container img {
+          width: 100%; /* La imagen ocupa el 100% del ancho de su contenedor */
+          height: 100%; /* La imagen ocupa el 100% de la altura de su contenedor */
+          object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+          animation: fade-visibility 12s infinite; /* Aplica la animación */
+        }
+
 
 <div style="width: 50%;">
   <img src="1.jpeg"  alt="Contenido personalizado">
