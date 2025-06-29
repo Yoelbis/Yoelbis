@@ -1,8 +1,79 @@
-<svg width="100%" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="200"
+   viewBox="0 0 800 200"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
 
-  <!-- Primer elemento de imagen -->
-  <image href="1.jpeg" x="10" y="10" width="180" height="180" />
+  <style type="text/css">
+    /* Estilos base para el texto */
+    .animated-text {
+      font-family: 'Arial', sans-serif;
+      font-size: 80px; /* Tamaño del texto */
+      fill: #61dafb; /* Color del texto */
+      opacity: 0; /* Inicialmente invisible */
+      /* La posición inicial se manejará con transform en la animación */
+      transform: translateX(800px); /* Empieza fuera del viewBox a la derecha */
+      will-change: transform, opacity; /* Sugerencia al navegador para optimizar la animación */
+      animation-name: slide-in-fade-out-svg;
+      animation-duration: 4.5s; /* Duración total de un ciclo de animación por letra */
+      animation-timing-function: ease-out; /* Velocidad de la animación */
+      animation-fill-mode: forwards; /* Mantiene el estado final de la animación */
+      animation-iteration-count: infinite; /* Repite la animación indefinidamente */
+    }
 
-  
+    /* Definición de la secuencia de animación para SVG */
+    @keyframes slide-in-fade-out-svg {
+      0% {
+        opacity: 0;
+        transform: translateX(800px); /* Letra invisible y fuera a la derecha (anchura del viewBox) */
+      }
+      10% { /* Momento en que la letra ha terminado de deslizarse y es visible */
+        opacity: 1;
+        transform: translateX(0); /* Letra en su posición final */
+      }
+      60% { /* La letra se mantiene visible y en su posición */
+        opacity: 1;
+        transform: translateX(0);
+      }
+      70% { /* La letra comienza a desvanecerse y moverse ligeramente */
+        opacity: 0;
+        transform: translateX(-20px); /* Pequeño movimiento hacia la izquierda al desaparecer */
+      }
+      100% { /* La letra está completamente desvanecida y fuera de vista, lista para reiniciar */
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+    }
+
+    /* Asignar un retraso de animación diferente a cada letra */
+    .letter-0 { animation-delay: 0s; }
+    .letter-1 { animation-delay: 0.15s; }
+    .letter-2 { animation-delay: 0.30s; }
+    .letter-3 { animation-delay: 0.45s; }
+    .letter-4 { animation-delay: 0.60s; }
+    .letter-5 { animation-delay: 0.75s; } /* Espacio */
+    .letter-6 { animation-delay: 0.90s; }
+    .letter-7 { animation-delay: 1.05s; }
+    .letter-8 { animation-delay: 1.20s; }
+    .letter-9 { animation-delay: 1.35s; }
+  </style>
+
+  <!-- Contenedor para todo el texto. Usamos <g> para agrupar las letras. -->
+  <!-- Cada letra se posiciona individualmente. Ajusta los valores x para el espaciado. -->
+  <g transform="translate(0, 100)"> <!-- Mueve todo el grupo de texto hacia abajo para centrarlo verticalmente -->
+    <text class="animated-text letter-0" x="150" y="0">T</text>
+    <text class="animated-text letter-1" x="200" y="0">h</text>
+    <text class="animated-text letter-2" x="250" y="0">a</text>
+    <text class="animated-text letter-3" x="300" y="0">n</text>
+    <text class="animated-text letter-4" x="350" y="0">k</text>
+    <text class="animated-text letter-5" x="400" y="0"> </text> <!-- Espacio -->
+    <text class="animated-text letter-6" x="450" y="0">y</text>
+    <text class="animated-text letter-7" x="500" y="0">o</text>
+    <text class="animated-text letter-8" x="550" y="0">u</text>
+    <text class="animated-text letter-9" x="600" y="0">!</text>
+  </g>
+
 </svg>
