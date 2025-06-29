@@ -72,7 +72,9 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
   <img src="thank-you-animation.svg" style="width: 100%;" alt="Contenido personalizado">
 </div>
 
-
+<div style="width: 100%;">
+  <img src="animating_images.svg" style="width: 100%;" alt="Contenido personalizado">
+</div>
 
 
   <div style="width: 28%; max-width: 200px; height: auto; box-sizing: border-box; text-align: center; position: relative;">
