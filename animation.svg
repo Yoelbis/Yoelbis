@@ -1,60 +1,8 @@
 <svg width="100%" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <style>
-    /* Definición de la animación de movimiento */
-    @keyframes slide-left {
-      0% {
-        transform: translateX(1000px); /* Comienza fuera de la vista a la derecha */
-        opacity: 0; /* Inicialmente invisible */
-      }
-      1% {
-        opacity: 1; /* Se vuelve visible casi al instante */
-      }
-      40% {
-        transform: translateX(300px); /* Se mueve lentamente hacia la izquierda */
-        opacity: 1;
-      }
-      50% {
-        transform: translateX(-100px); /* Sale completamente por la izquierda */
-        opacity: 0; /* Se desvanece al salir */
-      }
-      100% {
-        transform: translateX(1000px); /* Vuelve a la posición inicial (fuera de vista) para la siguiente iteración */
-        opacity: 0; /* Permanece invisible hasta el 1% de la siguiente iteración */
-      }
-    }
-
-    /* Estilos base para las imágenes */
-    .image-slide {
-      animation-name: slide-left;
-      animation-duration: 9s; /* Duración total de un ciclo para una imagen */
-      animation-timing-function: linear; /* Velocidad constante */
-      animation-iteration-count: infinite; /* Repetición infinita */
-      animation-fill-mode: forwards; /* Mantiene el estado final de la animación cuando termina */
-    }
-
-    /* Aplicar retraso para cada imagen */
-    .image-1 {
-      animation-delay: 0s; /* Comienza inmediatamente */
-    }
-
-    .image-2 {
-      animation-delay: 3s; /* Comienza 3 segundos después de la primera */
-    }
-
-    .image-3 {
-      animation-delay: 6s; /* Comienza 6 segundos después de la primera */
-    }
-  </style>
+  
 
   <!-- Primer elemento de imagen -->
-  <!-- Asegúrate de que '1.jpeg' esté en la misma carpeta que tu archivo SVG, o proporciona la ruta completa. -->
-  <image class="image-slide image-1" href="1.jpeg" x="0" y="50" width="80" height="80" />
+  <image href="1.jpeg" x="10" y="10" width="180" height="180" />
 
-  <!-- Segundo elemento de imagen -->
-  <!-- Asegúrate de que '2.jpg' esté en la misma carpeta que tu archivo SVG, o proporciona la ruta completa. -->
-  <image class="image-slide image-2" href="2.jpg" x="0" y="50" width="80" height="80" />
-
-  <!-- Tercer elemento de imagen -->
-  <!-- Asegúrate de que '3.png' esté en la misma carpeta que tu archivo SVG, o proporciona la ruta completa. -->
-  <image class="image-slide image-3" href="3.png" x="0" y="50" width="80" height="80" />
+  
 </svg>
