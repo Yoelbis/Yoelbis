@@ -1,64 +1,68 @@
-<svg fill="none" viewBox="0 0 1000 200" width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 1000 250" width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; overflow: hidden; position: relative;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; justify-content: space-around; align-items: center; width: 100%; height: 100%; overflow: hidden;">
       <style>
-        /* Definición de la animación de movimiento */
-        @keyframes slide-left {
-          0% {
-            transform: translateX(1000px); /* Comienza fuera de la vista a la derecha */
-            opacity: 0; /* Inicialmente invisible */
+        /* Definición de la animación de fade-in y fade-out */
+        @keyframes fade-visibility {
+          0%, 100% {
+            opacity: 0; /* Completamente transparente */
+            visibility: hidden; /* Oculta el elemento */
           }
-          1% {
-            opacity: 1; /* Se vuelve visible casi al instante */
+          10% {
+            opacity: 1; /* Completamente visible (fade-in) */
+            visibility: visible; /* Hace visible el elemento */
           }
-          40% {
-            transform: translateX(300px); /* Se mueve lentamente hacia la izquierda */
-            opacity: 1;
+          70% {
+            opacity: 1; /* Permanece visible durante 3 segundos */
+            visibility: visible;
           }
-          50% {
-            transform: translateX(-100px); /* Sale completamente por la izquierda */
-            opacity: 0; /* Se desvanece al salir */
-          }
-          100% {
-            transform: translateX(1000px); /* Vuelve a la posición inicial (fuera de vista) para la siguiente iteración */
-            opacity: 0; /* Permanece invisible hasta el 1% de la siguiente iteración */
+          80% {
+            opacity: 0; /* Se desvanece (fade-out) */
+            visibility: hidden;
           }
         }
 
-        /* Estilos base para las imágenes */
-        .animated-image {
-          position: absolute; /* Permite posicionar las imágenes libremente */
-          top: 50%; /* Centra verticalmente */
-          transform: translateY(-50%); /* Ajuste fino para centrado vertical */
-          width: 100px; /* Ancho de la imagen, ajusta según necesidad */
-          height: 100px; /* Altura de la imagen, ajusta según necesidad */
-          object-fit: cover; /* Para asegurar que la imagen cubra el espacio sin distorsión */
-          animation-name: slide-left;
-          animation-duration: 9s; /* Duración total de un ciclo para una imagen */
-          animation-timing-function: linear; /* Velocidad constante */
-          animation-iteration-count: infinite; /* Repetición infinita */
-          animation-fill-mode: forwards; /* Mantiene el estado final de la animación cuando termina */
+        /* Estilos para el contenedor de cada imagen */
+        .image-container {
+          width: 28%; /* Ancho de cada imagen para dejar espacio */
+          max-width: 200px; /* Tamaño máximo para cada imagen */
+          height: auto; /* Altura automática para mantener la proporción */
+          box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+          text-align: center; /* Centra la imagen dentro de su contenedor */
+          position: relative; /* Necesario para la visibilidad */
+          overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
         }
 
-        /* Aplicar retraso para cada imagen */
-        .image-1 {
-          animation-delay: 0s; /* Comienza inmediatamente */
+        /* Estilos para las imágenes */
+        .image-container img {
+          width: 100%; /* La imagen ocupa el 100% del ancho de su contenedor */
+          height: 100%; /* La imagen ocupa el 100% de la altura de su contenedor */
+          object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+          animation: fade-visibility 12s infinite; /* Aplica la animación */
         }
 
-        .image-2 {
-          animation-delay: 3s; /* Comienza 3 segundos después de la primera */
+        /* Retrasos para cada imagen para una secuencia */
+        .image-container:nth-child(1) img {
+          animation-delay: 0s;
         }
-
-        .image-3 {
-          animation-delay: 6s; /* Comienza 6 segundos después de la primera */
+        .image-container:nth-child(2) img {
+          animation-delay: 4s; /* La segunda imagen comienza 4s después */
+        }
+        .image-container:nth-child(3) img {
+          animation-delay: 8s; /* La tercera imagen comienza 8s después */
         }
       </style>
 
-      <!-- Tus imágenes -->
-      <img class="animated-image image-1" src="1.jpeg" alt="Image 1" />
-      <img class="animated-image image-2" src="2.jpg" alt="Image 2"/>
-      <img class="animated-image image-3" src="3.png" alt="Image 3" />
-      
+      <!-- Contenedores de las imágenes -->
+      <div class="image-container">
+        <img src="1.jpeg" alt="Image 1" />
+      </div>
+      <div class="image-container">
+        <img src="2.jpg" alt="Image 2" />
+      </div>
+      <div class="image-container">
+        <img src="3.png" alt="Image 3" />
+      </div>
     </div>
   </foreignObject>
 </svg>
