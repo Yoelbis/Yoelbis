@@ -29,7 +29,7 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 - 🌱 Currently learning: **React**.
 - 🔭 Working on: **My colleage Kristie's portfolio and online store promotion (https://kristie-mei-ozima.com).**
 - 🌍 Languages: **English and Spanish!**
-
+- 😄 Pronouns: he/him/his
 
 ## My Skills 🧠
 
@@ -67,35 +67,18 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 - [My LinkedIn.](https://www.linkedin.com/in/yoelbis-galvez/)
 - [My email.](mailto:yoelbiswork@gmail.com)
 
-
-<div style="width: 100%;">
+<div style="position: relative">
   <img src="thank-you-animation.svg" style="width: 100%;" alt="Contenido personalizado">
 </div>
 
-<div style="width: 100%;">
-  <img src="animating_images.svg" style="width: 100%;" alt="Contenido personalizado">
-</div>
+<p align="center"> Thank you for your consideration.</p>
 
-
-  <div style="width: 28%; max-width: 200px; height: auto; box-sizing: border-box; text-align: center; position: relative;">
-        <img src="1.jpeg" style="width: auto; height: 100%;" alt="Image 1" />
-  </div>
-      
-  <div style="width: 28%; max-width: 200px; height: auto; box-sizing: border-box; text-align: center; position: relative;">
-        <img src="2.jpg" style="width: auto; height: 100%;" alt="Image 1" alt="Image 2" />
-  </div>
-      
-  <div style="width: 28%; max-width: 200px; height: auto; box-sizing: border-box; text-align: center; position: relative;">
-        <img src="3.png" style="width: auto; height: 100%;" alt="Image 1" alt="Image 3" />
-  </div>
+<div align="center">
+  <img src="1.jpeg" style="width: 20%; height: auto" alt="Image 1" />
+  <img src="2.jpg" style="width: 20%; height: auto" alt="Image 2" />
+  <img src="3.png" style="width: 20%; height: auto" alt="Image 3" />
+</div> 
 
 
 
-  
 
-
-<div style="width: 50%;">
-  <img src="1.jpeg"  alt="Contenido personalizado">
-  <img src="2.jpg"  alt="Contenido personalizado">
-  <img src="3.png"  alt="Contenido personalizado">
-</div>
