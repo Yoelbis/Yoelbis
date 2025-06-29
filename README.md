@@ -76,9 +76,10 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 <div style="width: 100%;">
 
   <img src="animated_images.svg" style="width: 100%;" alt="Contenido personalizado">
-
+  
 </div>
-
-<img src="1.jpeg" style="width: 100%;" alt="Contenido personalizado">
-
-
+<div style="width: 50%;">
+  <img src="1.jpeg"  alt="Contenido personalizado">
+  <img src="2.jpg"  alt="Contenido personalizado">
+  <img src="3.png"  alt="Contenido personalizado">
+</div>
