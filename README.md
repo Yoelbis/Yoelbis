@@ -70,6 +70,7 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 
 <div style="width: 100%;">
 
-  <img src="animation.svg" style="width: 100%;" alt="Contenido personalizado">
+  <img src="thank-you-animation.svg" style="width: 100%;" alt="Contenido personalizado">
 
 </div>
+
