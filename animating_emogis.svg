@@ -8,16 +8,16 @@
             opacity: 0; /* Completamente transparente */
             visibility: hidden; /* Oculta el elemento */
           }
-          10% {
-            opacity: 1; /* Completamente visible (fade-in) */
+          5% { /* Fade-in */
+            opacity: 1; /* Completamente visible */
             visibility: visible; /* Hace visible el elemento */
           }
-          60% { /* Anteriormente 70%, ahora 60% para 2s de visibilidad */
-            opacity: 1; /* Permanece visible durante 2 segundos */
+          9% { /* Permanece visible por 0.5s. (4% del ciclo total de 12s = 0.0 * 2s = 0.48s, aproximadamente 0.5s) */
+            opacity: 1; /* Permanece visible */
             visibility: visible;
           }
-          70% { /* Anteriormente 80%, ahora 70% para iniciar fade-out antes */
-            opacity: 0; /* Se desvanece (fade-out) */
+          14% { /* Fade-out */
+            opacity: 0; /* Se desvanece */
             visibility: hidden;
           }
         }
