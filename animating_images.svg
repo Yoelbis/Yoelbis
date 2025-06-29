@@ -12,57 +12,43 @@
             opacity: 1; /* Completamente visible (fade-in) */
             visibility: visible; /* Hace visible el elemento */
           }
-          70% {
-            opacity: 1; /* Permanece visible durante 3 segundos */
+          60% { /* Anteriormente 70%, ahora 60% para 2s de visibilidad */
+            opacity: 1; /* Permanece visible durante 2 segundos */
             visibility: visible;
           }
-          80% {
+          70% { /* Anteriormente 80%, ahora 70% para iniciar fade-out antes */
             opacity: 0; /* Se desvanece (fade-out) */
             visibility: hidden;
           }
         }
 
-        /* Estilos para el contenedor de cada imagen */
-        .image-container {
-          width: 28%; /* Ancho de cada imagen para dejar espacio */
-          max-width: 200px; /* Tamaño máximo para cada imagen */
-          height: auto; /* Altura automática para mantener la proporción */
-          box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
-          text-align: center; /* Centra la imagen dentro de su contenedor */
-          position: relative; /* Necesario para la visibilidad */
-          overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
-        }
-
-        /* Estilos para las imágenes */
-        .image-container img {
-          width: 100%; /* La imagen ocupa el 100% del ancho de su contenedor */
-          height: 100%; /* La imagen ocupa el 100% de la altura de su contenedor */
-          object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+        /* Estilos base para los emojis */
+        .animated-emoji {
+          font-size: 100px; /* Tamaño del emoji, ajusta según sea necesario */
+          line-height: 1; /* Asegura que el emoji no tenga espacio extra de línea */
           animation: fade-visibility 12s infinite; /* Aplica la animación */
+          text-align: center; /* Centra el emoji en su espacio */
+          width: 28%; /* Ancho del contenedor del emoji para el espaciado */
+          max-width: 200px; /* Tamaño máximo para cada emoji */
+          box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
         }
 
-        /* Retrasos para cada imagen para una secuencia */
-        .image-container:nth-child(1) img {
+        /* Retrasos para cada emoji para una secuencia */
+        .animated-emoji:nth-child(1) {
           animation-delay: 0s;
         }
-        .image-container:nth-child(2) img {
-          animation-delay: 4s; /* La segunda imagen comienza 4s después */
+        .animated-emoji:nth-child(2) {
+          animation-delay: 4s; /* El segundo emoji comienza 4s después */
         }
-        .image-container:nth-child(3) img {
-          animation-delay: 8s; /* La tercera imagen comienza 8s después */
+        .animated-emoji:nth-child(3) {
+          animation-delay: 8s; /* El tercer emoji comienza 8s después */
         }
       </style>
 
-      <!-- Contenedores de las imágenes -->
-      <div class="image-container">
-        <img src="1.jpeg" alt="Image 1" />
-      </div>
-      <div class="image-container">
-        <img src="2.jpg" alt="Image 2" />
-      </div>
-      <div class="image-container">
-        <img src="3.png" alt="Image 3" />
-      </div>
+      <!-- Tus emojis -->
+      <div class="animated-emoji">💻</div>
+      <div class="animated-emoji">🚀</div>
+      <div class="animated-emoji">💪</div>
     </div>
   </foreignObject>
 </svg>
