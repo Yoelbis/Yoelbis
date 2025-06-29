@@ -78,7 +78,15 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 </div>
 
 
-
+<div class="image-container">
+        <img src="1.jpeg" alt="Image 1" />
+      </div>
+      <div class="image-container">
+        <img src="2.jpg" alt="Image 2" />
+      </div>
+      <div class="image-container">
+        <img src="3.png" alt="Image 3" />
+</div>
 
 <div style="width: 50%;">
   <img src="1.jpeg"  alt="Contenido personalizado">
