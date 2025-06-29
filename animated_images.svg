@@ -55,7 +55,7 @@
       </style>
 
       <!-- Tus imágenes -->
-      <img class="animated-image image-1" src="1.jpeg" alt="Image 1" />
+      <img class="animated-image image-1" src="https://github.com/Yoelbis/Yoelbis/blob/817980c896795580ea8f36fc69bfecab504d9c8c/1.jpeg" alt="Image 1" />
       <img class="animated-image image-2" src="2.jpg" alt="Image 2"/>
       <img class="animated-image image-3" src="3.png" alt="Image 3" />
     </div>
