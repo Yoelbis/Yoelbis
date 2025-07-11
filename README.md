@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 # Hi there, I'm Yoelbis! 👋
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962" width="60%">
+  <img src="https://github.com/user-attachments/assets/7bf336e2-78e6-41c1-9bf0-6c7348b21962" width="60%" alt="Web Developer">
 </div>
 
 ## About Me 🚀
@@ -68,15 +68,15 @@ I'm a passionate recently college-graduated **Web Developer**, with excellent co
 - [My email.](mailto:yoelbiswork@gmail.com)
 
 <div style="position: relative">
-  <img src="thank-you-animation.svg" style="width: 100%;" alt="Contenido personalizado">
+  <img src="thank-you-animation.svg" style="width: 100%;" alt="Thank you">
 </div>
 
 <p align="center"> Thank you for your consideration.</p>
 
 <div align="center">
-  <img src="1.jpeg" style="width: 20%; height: auto" alt="Image 1" />
-  <img src="2.jpg" style="width: 20%; height: auto" alt="Image 2" />
-  <img src="3.png" style="width: 20%; height: auto" alt="Image 3" />
+  <img src="1.jpeg" style="width: 20%; height: auto" alt="My first graduation photo." />
+  <img src="2.jpg" style="width: 20%; height: auto" alt="My second graduation photo." />
+  <img src="3.png" style="width: 20%; height: auto" alt="A picture of me wearing a suit." />
 </div> 
 
 
